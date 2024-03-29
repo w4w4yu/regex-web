@@ -1,0 +1,66 @@
+/* app.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Set background color to cover the whole body */
+}
+
+.App {
+  text-align: center;
+}
+
+/* Remove margin and padding from .App-header */
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content at the top */
+  font-size: calc(10px + 2vmin);
+  color: white; /* Text color */
+  margin-top: 2%;
+  padding: 1%;
+}
+
+/* Center the title */
+.App-header h1 {
+  margin-top: 10; /* Set margin-top to 0 to remove default margin */
+}
+
+/* Change header color */
+.App-header {
+  color: #61dafb; /* Header text color */
+}
+
+/* Add margin to the login button */
+.btn-primary {
+  margin-top: 30px; /* Adjust the margin as needed */
+}
+
+/* Adjust fill-up bar */
+.progress {
+  height: 1rem; /* Set the height of the progress bar */
+}
+
+/* Adjust fill-up bar color */
+.progress-bar {
+  background-color: #61dafb; /* Set the fill-up bar color */
+}
+
+/* Add styles for the password strength bar */
+.password-strength-bar {
+  height: 5px; /* Adjust the height as needed */
+  margin-top: 5px; /* Add margin to separate it from the input field */
+}
+
+/* Adjust the color of the password strength bar */
+.password-strength-bar.progress-bar-danger {
+  background-color: #dc3545; /* Red color for weak password */
+}
+
+.password-strength-bar.progress-bar-warning {
+  background-color: #ffc107; /* Yellow color for moderate password */
+}
+
+.password-strength-bar.progress-bar-success {
+  background-color: #28a745; /* Green color for strong password */
+}
